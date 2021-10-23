@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Form Seblak 3.2</title>
+</head>
+<body>
+    <h1>
+        Wayshop | Seblak-on-Demand
+    </h1>
+    <form method="post">
+        <p>Our 12* wood-fired Seblak are available for delivery. Build your custom Seblak and we'll deliver it within an hour.</p>
+        <fieldset>
+            <legend><h2>Your Information</h2></legend>
+    <table>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td>:</td>
+            <td><input type="text" id="name" name="customername"></td>
+        </tr>
+        <tr>
+            <td> <label for="address">Address</label></td>
+            <td>:</td>
+            <td> <input type="text" name="address" id="address"></td>
+        </tr>
+        <tr>
+            <td><label for="number">Telephone Number</label></td>
+            <td>:</td>
+            <td><input type="text" name="telephone" id="number"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>:</td>
+            <td><input type="text" name="email" id="email"></td>
+        </tr>
+        <tr >
+            <td><label for="instruction">Delivery instructions</label></td>
+            <td>:</td>
+            <td><textarea name="instructions" id="instruction" cols="30" rows="10"></textarea></td>
+        </tr>
+    </table>
+        </fieldset>
+        <form>
+            <fieldset>
+            <legend><h2>My Dream Seblak Design</h2></legend>
+            <h4>Seblak Specs</h4>
+            <p>Crust: <input type="text" list="Seblak" name="crust"></p>
+            <datalist id="Seblak">
+                <option value="Seblak Original">
+                <option value="Seblak Pedas">
+                <option value="Seblak Extra Pedas">
+                <option value="Seblak Spesial">
+            </datalist>
+            <p>Toppings</p>
+                        <input type="checkbox" id="food1" name="food1">
+                        <label for="food1">Dengkul</label>
+                        <input type="checkbox" id="food2" name="food2">
+                        <label for="food2">Ceker</label><br>
+                        <input type="checkbox" id="food3" name="food3">
+                        <label for="food3">Cikua</label>
+                        <input type="checkbox" id="food4" name="food4">
+                        <label for="food4">Telur</label><br>
+                        <input type="checkbox" id="food5" name="food5">
+                        <label for="food5">Bakso</label>
+                        <input type="checkbox" id="food6" name="food6">
+                        <label for="foo62">Sosis</label><br>
+            <p>Number</p>
+            <label>Number Many Seblak <input type="number" name="Seblak" min="1" max="6"></label>
+            <table>
+                <tr>
+                    <a href="Form_thankyou.html">
+                        <Button style=""><a href = "Form_thankyou.html">Order</Button></a>
+                    <th><input type="reset" value="Reset"></th>
+                </tr>
+            </table>
+        </fieldset>
+
+        </form>
+            
+    </form>
+
+    
+</body>
+</html>

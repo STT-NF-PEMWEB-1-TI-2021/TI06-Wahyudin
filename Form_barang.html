@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Barang</title>
+</head>
+
+<body>
+    <div style="border: 1px solid; width: 60%; margin-left: auto; margin-right: auto; background-color: silver;">
+        <table style="width: 65%; margin-left: 15%;">
+            <p align="center">A Wage Page</p>
+            <tr>
+                <td>
+                    <img src="Kiri.png" height="20px">
+                    <img src="Kanan.png" height="20px">
+                    <input type="text" value="http://" style="width: 90%; max-width: 80%;">
+                    <img src="Search2.png" height="20px">
+                    
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="border: 1px solid; width: 60%; margin-left: auto; margin-right: auto;">
+        <table style="width: 65%; margin-left: 170px;">
+            <tr>
+                <td>Home |</td>
+                <td>Generate Link |</td>
+                <td>Transaction Historty |</td>
+                <td>Policy |</td>
+                <td>Logout</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="border: 1px solid; width: 60%;  margin-left: auto; margin-right: auto;">
+        <table style="width: 90%;">
+            <tr>
+                <td style="vertical-align: top; padding: 5px;">
+                    <img src="ASUS X550VX.jpg" height="130px"> <br>
+                    <input type="Submit" value="Upload Picture">
+                </td>
+                <td>
+                    <form method="post" style="padding: 10px;">
+                                <label style="min-width: 170px ; max-width: 170px; float: left;" for="Title Hire">Title Hire : </label>
+                                <input type="text" name="Title Hire" style="width: 50%;" placeholder="ASUS X550VX"> <br>
+
+                                <label style="min-width: 170px ; max-width: 170px; float: left;" for="Description">Description :</label>
+                                <textarea style="resize: none; width: 50%;" name="Instructions" cols="30" maxlength="400" ></textarea><br>
+
+                                <label style="min-width: 170px; max-width: 170px; float: left;" for="Account Number">Account Number :</label>
+                                <input type="text" name="Account Number" style="width: 50%;" >
+
+                                <label style="min-width: 170px ; max-width: 170px; float: left;">Bank :</label>
+                                <input type="text" list="edulevel" name="Bank">
+                                <datalist id="edulevel">
+                                    <option value="BRI">
+                                    <option value="BCA">
+                                    <option value="BSI">
+                                    <option value="BNI">
+                                    <option value="Mandiri">
+                                </datalist> <br>
+                                
+                                <label style="min-width: 170px ; max-width: 170px; float: left;" for="Account Holder">Account Holder :</label>
+                                <input type="text" name="Account Holder" style="width: 50%;"> <br>
+                                
+                                <label style="min-width: 170px ; max-width: 170px; float: left;" for="Transaction">Transaction :</label>
+                                <input type="number" id="Transaction" name="Transaction" min="1" max="10" size="5" style="float: left;">
+                                
+                                <div style="clear: both;"></div>
+                                <p style="margin-left: 175px; float: left; padding-top: 0%; margin-top: 0;">* if the transaction is for 3 person, choose 3 from the drop-down list</p>
+                                
+                                <input style="margin-left: 170px;" type="radio" name="crust" value="Classic White"/> Send to Mobile Phone <br>
+                                <input style="margin-left: 170px;" type="radio" name="crust" value="Multigrain"/> Send to Email <br>
+                                
+                                <label style="min-width: 170px ; max-width: 170px; float: left;" for="Send to Mobile Phone">Send to Mobile Phone :</label>
+                                <input type="text" name="Account Holder" style="width: 50%;">
+                                
+                                <label style="min-width: 170px ; max-width: 170px; float: left;" for="Send to Email">Send to Email :</label>
+                                <input type="text" name="Send to Email" style="width: 50%;"> <br>
+                                <br>
+                                <center><input type="Submit" value="Generate Nabr Link" style="background-color:skyblue"></center>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
