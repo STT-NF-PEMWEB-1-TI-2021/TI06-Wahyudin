@@ -5,18 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
+    <style>
+        body {
+            border          : black 2px solid; width: 98%;
+            color           : black;
+            background-image: url(bg.jpg); 
+            background-repeat:no-repeat; 
+            background-size : cover; 
+        }
+        #title {
+            color           : black; 
+            font-size       : 30px; 
+            text-align      : left;
+            padding-left    : 20px;
+            padding-top     : 10px;
+        }
+        
+        #kotak {
+            border          : 1px solid; 
+            width           : 100%;
+            margin-left     : auto ;
+            margin-right    : auto;
+        }
+
+        table {
+            width           : 100%; 
+            background-color: gold;
+            
+        }
+
+        h3 {
+            padding-left    : 20px ;
+        }
+
+        #kotak1 {
+            padding-top     : 40px; 
+            padding-bottom  : 300px; 
+            border          : 1px solid; 
+            display         : flex; 
+            width           : 100%;
+            margin-left     : auto ;
+            margin-right    : auto;
+        } 
+        
+        #customer {
+            width           : 100%; 
+            padding-left    : 20px;
+            background-color: transparent;
+        }
+
+        u {
+            color           : blue;
+        }
+
+        #total {
+            width           : 50%; 
+            height          : 12cm;
+            background-color: gold;  
+            padding         : 25px;
+        }
+
+        .IDR {
+            text-align      : right;
+        }
+
+        
+        
+    </style>
 </head>
 <body>
-    <div style="color: black; font-size: 30px; text-align: left;"><b>Checkout - Success</b></div>
-    <div style="border: 1px solid; width: 70%;">
-    <table style="width: 100%; background-color: silver;">
+    <div id="title"><b>Checkout - Success</b></div><br>
+    <div id="kotak">
+    <table>
     <tr>
         <td>
-            <h3 style="padding-left: 20px ;">Wayshop</h3>
+            <h3>Wayshop</h3>
         </td>
 
         <td>
-            <a href="#">Elektronik</a> |
+            
+            | <a href="#">Elektronik</a> |
             <a href="#">Pakaian Bayi</a> |
             <a href="#">Laptop dan Aksesoris</a> |
         </td>
@@ -32,8 +100,8 @@
     </div>
 
 
-    <div style="padding-top: 40px; padding-bottom: 300px; border: 1px solid; display: flex; width: 70%;">
-    <table style="width: 100%; padding-left: 20px;">
+    <div id="kotak1">
+    <table id="customer">
         <tr>
             <td><img src="centang.png"  width="50" ></td>
             <td>Order 131217312 <br> <h3><b>Thank you, Wayshop!</b></h3></td>
@@ -58,12 +126,12 @@
         <tr>
             <td colspan="2"><b>Shipping Address</b><br>
                 Wahyudin <br>
-                <u style="color: blue;">Jl Pisangan <br> Pebayuran, Kab Bekasi 17710 <br> Jawa Barat <br> Indonesia</u>
+                <u>Jl Pisangan <br> Pebayuran, Kab Bekasi 17710 <br> Jawa Barat <br> Indonesia</u>
             </td>
 
             <td colspan="2"><b>Billing Address</b><br>
                 Wahyudin <br>
-                <u style="color: blue;">Jl Pisangan <br> Pebayuran, Kab Bekasi 17710 <br> Jawa Barat <br> Indonesia</u>
+                <u>Jl Pisangan <br> Pebayuran, Kab Bekasi 17710 <br> Jawa Barat <br> Indonesia</u>
             </td>
         </tr>
 
@@ -82,24 +150,24 @@
             <td colspan="4"><hr></td>
         </tr>
     </table>
-    <table style="width: 60%; height: 12cm;background-color: silver;  padding: 25px;">
+    <table id="total">
         <tr>
             <td colspan="4"><h4>Summary (1 item)</h4></td>
         </tr>
 
         <tr>
             <td>Subtotal</td>
-            <td style="text-align: right;">IDR 3.000.000,00</td>
+            <td class="IDR">IDR 3.000.000,00</td>
         </tr>
 
         <tr>
             <td>Shipping</td>
-            <td style="text-align: right;">IDR 30.000,00</td>
+            <td class="IDR">IDR 30.000,00</td>
         </tr>
 
         <tr>
             <td>Est. Taxes</td>
-            <td style="text-align: right;">IDR 50.000,00</td>
+            <td class="IDR">IDR 50.000,00</td>
         </tr>
 
         <tr>
@@ -119,13 +187,13 @@
 
         <tr>
             <td><b>Total</b></td>
-            <td style="text-align: right;"><b>IDR 3.080.000,00</b></td>
+            <td class="IDR"><b>IDR 3.080.000,00</b></td>
         </tr>
     </table>
     </div>
 
-    <div style="border: 1px solid; width: 70%;">
-        <table style="width: 100%;background-color: silver; font-size: 14px; padding-left: 20px;">
+    <div class="kotak">
+        <table>
             <tr>
                 <td><b>Wayshop</b></td>
 
