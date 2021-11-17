@@ -1,2 +1,2 @@
 # TI06-Wahyudin
-repository milik Wahyudin untuk mengumpulkan tugas dana praktikum
+repository milik Wahyudin untuk mengumpulkan tugas dan praktikum
