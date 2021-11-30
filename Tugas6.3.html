@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 6.3</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background: pink;
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }    
+        .item{
+            display: flex;
+            justify-content: space-around ;
+        }
+        .item > aside{
+            flex-direction: column;
+            background: rgb(80, 94, 110);
+            width: 20%;
+            height: 350px;
+            order: 1;
+            text-align: center;
+            padding: 100px;
+        }
+        .item > article{
+            flex-direction: column;
+            background: red;
+            width: 60%;
+            height: 350px;
+            order: 2;
+            text-align: center;
+            padding: 150px;
+        }
+        img{
+            width: 150px;
+            padding: 1em 1em 1em;
+        }
+        header,footer{
+            background: rgb(133, 154, 179);
+            width: 90%;
+            height: 15vh;
+            text-align: center;
+            padding: 35px;
+            margin-top: 1em;
+            margin-left: 68px ;
+        }
+        aside,article{
+            margin-top: 1em;
+            margin-bottom: 0em;
+        }
+    </style>
+</head>
+<body>
+        <header>Header</header>
+
+    <div class="item">
+        <aside>Aside</aside>
+        <article>
+            <p>Article</p>
+            <img src="fotowahyu.jpg">
+            <img src="dua.jpg">
+            <img src="empat.jpg">
+        </article>
+    </div>
+
+        <footer>Footer</footer>
+</body>
+</html>

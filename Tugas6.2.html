@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 6.2</title>
+    <style>
+        body{
+            margin:0;
+        }
+        .flex-container{
+            display: flex;
+            height: 100vh;
+        }
+        .item-nav{
+            width: 40vh;
+            background: pink;
+        }
+        .konten{
+            width: 100%;
+        }
+        .header,.footer{
+            height: 20vh;
+            background: khaki;
+        }
+        #main-konten{
+            display: flex;
+        }
+        .artikel,.aside{
+            height: 60vh;
+        }
+        .artikel{
+            width: 80%;
+        }
+        .aside{
+            width: 40vh;
+            background: aqua;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item-nav">Nav</div>
+        <div class="konten">
+            <div class="header">Header</div>
+
+            <div id="main-konten">
+                <div class="artikel">Artikel</div>
+                <div class="aside">Aside</div>
+            </div>
+
+            <div class="footer">Footer</div>
+        </div>
+    </div>
+</body>
