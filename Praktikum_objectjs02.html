@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajara Object JavaScript</title>
+        <script>            
+            let jagoan = {
+                nama: "Goku",
+                energi: 5000,
+                pukul:function(){
+                    this.energi = this.energi - 20; //this digunakan untuk mengakses property
+                },
+                makan:function(){
+                    this.energi = this.energi + 50;
+                }
+            };
+
+            console.log("Nama Jagoan : " + jagoan.nama);
+            console.log("Energi Jagoan : " + jagoan.energi);
+            jagoan.pukul(); //energi berkurang
+            console.log("Setelah Mukul Energi Jagoan : " + jagoan.energi);
+            //jagoan.makan(); //energi bertambah
+            //console.log("Setelah Makan Energi Jagoan : " + jagoan.energi);
+
+            function pukulan(){
+                alert(jagoan.nama + " Setelah Mukul Energinya : " + jagoan.energi);
+            }
+            /*function makan(){
+                alert(jagoan.nama + " Setelah Makan Energinya : " + jagoan.energi);
+            } */
+        </script>
+    </head>
+    <body>
+        <h2>Belajar Object JavaScript</h2>
+        <button onclick="pukulan()">Jagoan Pukul</button>
+        <button onclick="makan()">Jagoan Makan</button>
+    </body>
+</html>

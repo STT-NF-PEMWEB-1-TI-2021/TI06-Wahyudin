@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Belajar Array JavaScript</title>
+        <script>
+            let siswas = ["Wahyu","Yusuf","Ilham","Ahmad","Jundi"];
+            console.log("Siswa index ke-2 adalah " + siswas[2]);
+            console.log("Jumlah Siswa : " + siswas.length); //jumlah data
+
+            siswas.push("Indah");//tambahkan siswa baru (push)
+            console.log("Siswa baru : " + siswas[5]);
+
+            siswas.sort();//urutkan data dari A-Z (sort)
+            siswas.sort().reverse();//urutan data dari Z-A (sort + reverse)
+            let idx;
+            for (idx in siswas) {
+                console.log("Siswa index ke-" + idx + " adalah " + siswas[idx]);
+                document.write("<br/>Siswa index ke-" + idx + " adalah " + siswas[idx]);
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Belajar Array JavaScript</h2>
+    </body>
+</html>
